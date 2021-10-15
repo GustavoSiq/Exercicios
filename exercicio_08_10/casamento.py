@@ -22,3 +22,16 @@ class Casamento:
 
     def set_dia(self, dia):
         self._dia = dia
+
+    # Metodos
+    def Bolo(self):
+        print("E o primeiro pedaço vai para...")
+
+    def casados(self, resposta):
+        if resposta == 'sim':
+            print("Finalmente se casaram!!")
+        else:
+            print("Vish, deu ruim!")
+    
+    def Buquê(self):
+        print("Eu vou jogar...")

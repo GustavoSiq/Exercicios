@@ -22,3 +22,16 @@ class Pessoa:
 
     def set_telefone(self, telefone):
         self._telefone = telefone
+
+    # Metodos
+    def entrar(self):
+        print("Já vai começar, vamos entrar!")
+
+    def sentar(self):
+        print("Cansei de esperar, vou sentar!")
+    
+    def sair(self, fim):
+        print("Terminou? ")
+        if fim == 'sim':
+            print("Foi lindo, mas terminou, vamos embora!")
+        
