@@ -26,7 +26,6 @@ class Noivos(Pessoa):
         print("Bora? Tá na hora!")
 
     def colocarAnel(self, confirmacao):
-        print(f"{self._nome}: {confirmacao}")
         if confirmacao == 'sim':
             print("Mê de a mão...")
         else:
